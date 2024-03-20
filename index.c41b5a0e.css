@@ -615,6 +615,10 @@ img, video {
   border-radius: .75rem;
 }
 
+.border {
+  border-width: 1px;
+}
+
 .border-4 {
   border-width: 4px;
 }
