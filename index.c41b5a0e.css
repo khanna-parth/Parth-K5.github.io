@@ -987,6 +987,21 @@ img, video {
   align-self: flex-start;
 }
 
+.chatArea {
+  z-index: 999;
+  background-color: #00000080;
+  width: 30%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+@media only screen and (width <= 768px) {
+  .chat-container, .chatArea {
+    width: 70%;
+  }
+}
+
 .placeholder\:text-secondary::placeholder {
   --tw-text-opacity: 1;
   color: rgb(170 166 195 / var(--tw-text-opacity));
