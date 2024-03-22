@@ -397,10 +397,6 @@ img, video {
   height: 1.25rem;
 }
 
-.h-9 {
-  height: 2.25rem;
-}
-
 .h-\[230px\] {
   height: 230px;
 }
@@ -463,10 +459,6 @@ img, video {
 
 .w-5 {
   width: 1.25rem;
-}
-
-.w-9 {
-  width: 2.25rem;
 }
 
 .w-\[28px\] {
