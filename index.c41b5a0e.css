@@ -615,10 +615,6 @@ img, video {
   border-radius: .75rem;
 }
 
-.border {
-  border-width: 1px;
-}
-
 .border-4 {
   border-width: 4px;
 }
@@ -961,6 +957,34 @@ img, video {
   87.5% {
     box-shadow: 0 -2.6em #fff3, 1.8em -1.8em #fff3, 2.5em 0 #fff3, 1.75em 1.75em #fff3, 0 2.5em #fff3, -1.8em 1.8em #ffffff80, -2.6em 0 #ffffffb3, -1.8em -1.8em #fff;
   }
+}
+
+.chat-container {
+  border: 1px solid #ccc;
+  width: 300px;
+  height: 400px;
+  padding: 10px;
+  overflow-y: scroll;
+}
+
+.chat-message {
+  background-color: #f2f2f239;
+  border-radius: 10px;
+  max-width: 70%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.user-message {
+  color: #fff;
+  text-align: left;
+  background-color: #262bdc;
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+.other-message {
+  align-self: flex-start;
 }
 
 .placeholder\:text-secondary::placeholder {
